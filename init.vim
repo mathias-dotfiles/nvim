@@ -10,7 +10,7 @@ set cursorline " Highlight the current line
 set termguicolors " Enable 24-bit RGB colors
 set mouse=a " enable mouse click
 set pastetoggle=
-
+set timeoutlen=2000
 " Syntax highlighting and filetype plugins
 syntax enable
 filetype plugin indent on
