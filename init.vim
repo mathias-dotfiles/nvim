@@ -15,6 +15,9 @@ set timeoutlen=2000
 syntax enable
 filetype plugin indent on
 
+" fonts
+set guifont=JetBrainsMono\ Nerd\ Font,Menlo,DejaVu\ Sans\ Mono:h14
+
 " Leader key
 let mapleader=" " 
 nnoremap <Leader>w :w<CR>
