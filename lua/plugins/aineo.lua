@@ -9,4 +9,10 @@ return {
   "mathiasbrito/aineo",
   version = "*",
   lazy = false,
+  init = function()
+    -- The office never shows by itself; \O still opens it.
+    vim.g.aineo = vim.tbl_deep_extend("force", vim.g.aineo or {}, {
+      office = { idle_ms = false },
+    })
+  end,
 }
